@@ -1,0 +1,16 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "My Application"
+include ':data_thread'
+include ':loadermanager'
+include ':looper'
+include ':app'
+include ':workmanager'
+include ':mireaproject'
+
